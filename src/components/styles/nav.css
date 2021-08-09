@@ -1,0 +1,42 @@
+nav {
+  grid-area: 1 / 1 / 2 / 2;
+  /* height: 10vh; */
+  border: 1px solid thistle;
+}
+.nav-container {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px 0 5px;
+  border-radius: 50%;
+}
+
+.notification {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+.user-info {
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.userAvatar {
+  display: flex;
+  align-items: center;
+}
+.userAvatar img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}

@@ -1,0 +1,47 @@
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.side_bar.active {
+  width: 20%;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border: 1px solid thistle;
+}
+.side_bar {
+  width: 0%;
+  transition: cubic-bezier(0.18, -0.01, 0, 0.88) 300ms;
+}
+menu {
+  list-style: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  width: auto;
+}
+menu li {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--fnt-black-light);
+}
+menu a {
+  font-size: 1.2rem;
+  color: inherit;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.notif {
+  text-align: center;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 1rem;
+  color: var(--fnt-white);
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 50%;
+}
